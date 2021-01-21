@@ -1,0 +1,49 @@
+
+<div class="title">
+ <h3>Covid Data</h3>
+
+</div>
+
+<div class="row" (click)="navigateto('/list/state')">
+  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" >
+    <mat-card class="example-card card red">
+
+      <mat-card-content>
+        <p>
+          {{coviddata.confirmed}}
+        </p>
+      </mat-card-content>
+      <div class="bottom">
+        Confirmed
+      </div>
+    </mat-card>
+  </div>
+  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+    <mat-card class="example-card card green">
+
+      <mat-card-content>
+        <p>
+          {{coviddata.recovered}}
+
+        </p>
+      </mat-card-content>
+      <div class="bottom">
+        Recovered
+      </div>
+    </mat-card>
+  </div>
+  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+    <mat-card class="example-card card gray">
+
+      <mat-card-content>
+        <p>
+          {{coviddata.deaths}}
+
+        </p>
+      </mat-card-content>
+      <div class="bottom">
+        Deaths
+      </div>
+    </mat-card>
+  </div>
+</div>

@@ -1,1 +1,63 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.example-card {
+    max-width: 400px;
+  }
+  
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
+
+
+  .card {
+    min-height: 108px;
+    text-align: center;
+    font-size: 21px;
+    margin: 1em 0px;
+}
+.card .mat-card-actions, .mat-card-content, .mat-card-subtitle {
+  font-size: 23px;
+}
+.bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 17px;
+  padding: 4px;
+}
+
+.red {
+  color: #e6443e;
+  background: #fdf5f5;
+}
+.red .bottom {
+  background: #f9d6d7;
+}
+
+.green {
+  color: #4aa26a;
+  background: #f0fdf5;
+}
+.green .bottom {
+  background: #c6f7d5;
+}
+
+.gray {
+  color: #718196;
+  background: #ecf2f7;
+}
+.gray .bottom {
+  background: #e2e8f0;
+}
+.title h3{
+  margin: 1em 0;
+  text-align: center;
+}
+.title {
+  text-align: center;
+  margin-bottom: 2em;
+}
